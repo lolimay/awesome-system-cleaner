@@ -4,14 +4,13 @@ an awesome system helper for deepin
 
 主要功能如下:
 ## 文件清理
-````
 - 浏览器缓存（Chrome、Firefox和360安全浏览器）
 - QQ/TIM/微信缓存
 - 系统临时目录
 - 系统回收站（注意Linux回收站并不是单独一个，而是每一个磁盘都对应一个）
 - APT包管理工具缓存、无用包（autoremove）
 - 系统日志文件（sudo journalctl --disk-usage）
-````
+
 感觉清理不到位?试试我们为你提供的大文件扫描
 
 - 进程扫描
