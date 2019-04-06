@@ -1,2 +1,2 @@
-# awesome-system-cleaner
-an awesome system cleaner for deepin
+# awesome-system-helper
+an awesome system helper for deepin
