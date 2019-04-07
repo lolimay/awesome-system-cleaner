@@ -1,39 +1,29 @@
 # awesome-system-helper
-an awesome system helper for deepin
-一款 deepin 上的类似于的 360 安全卫士（不包括杀毒功能）的电脑助手
 
-主要功能如下:
-## 文件清理
-````
-- 浏览器缓存（Chrome、Firefox和360安全浏览器）
-- QQ/TIM/微信缓存
-- 系统临时目录
-- 系统回收站（注意Linux回收站并不是单独一个，而是每一个磁盘都对应一个）
-- APT包管理工具缓存、无用包（autoremove）
-- 系统日志文件（sudo journalctl --disk-usage）
-````
-感觉清理不到位?试试我们为你提供的大文件扫描
+## Project setup
+```
+yarn install
+```
 
-- 进程扫描
-查看当前所有的系统进程
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
 
-## 启动项管理
-- 扫描系统中已知的启动项
-- 停用相关启动项/重新启用相关启动项
-- 自定义启动项(如添加可执行文件、开机自动执行某一段代码)
+### Compiles and minifies for production
+```
+yarn run build
+```
 
-## 插件化管理
-- 修复NTFS只读
-- 大文件扫描
-- 挂载管理
-- 右键菜单管理
+### Run your tests
+```
+yarn run test
+```
 
-## 软件管理
-软件包管理（主要是软件卸载功能）
+### Lints and fixes files
+```
+yarn run lint
+```
 
-
-## 产品定位
-一款绿色的系统工具。帮助用户轻松管理自己的电脑。
-
-特点:
-- deepin 是一款面向全球的操作系统，作为一个开发者开发的软件也应该是。
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
