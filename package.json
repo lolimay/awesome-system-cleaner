@@ -1,22 +1,21 @@
 {
-    "name": "awesome-system-helper",
-    "version": "1.0.0",
-    "description": "An awesome system helper for deepin",
-    "main": "main.js",
-    "scripts": {
-      "start": "electron ."
-    },
-    "repository": "https://github.com/lolimay/awesome-system-helper",
-    "keywords": [
-      "Electron",
-      "helper",
-      "deepin",
-      "system"
-    ],
-    "author": "lolimay",
-    "license": "MIT",
-    "devDependencies": {
-      "electron": "^4.1.3"
-    }
+  "name": "awesome-system-helper",
+  "version": "1.0.0",
+  "description": "An awesome system helper for deepin",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/lolimay/awesome-system-helper",
+  "keywords": [
+    "Electron",
+    "helper",
+    "deepin",
+    "system"
+  ],
+  "author": "lolimay",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.1.3"
   }
-  
+}
