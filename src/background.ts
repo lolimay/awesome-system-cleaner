@@ -1,5 +1,4 @@
 'use strict'
-
 import { app, protocol, BrowserWindow } from 'electron'
 import {
   createProtocol,
@@ -7,7 +6,7 @@ import {
 } from 'vue-cli-plugin-electron-builder/lib'
 
 const isDevelopment = process.env.NODE_ENV !== 'production'
-const path = require('path')
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win: BrowserWindow | null
@@ -21,9 +20,7 @@ function createWindow() {
     height: 480,
     frame: false,
     resizable: false,
-    webPreferences: {
-      preload: path.join(__dirname, './renderer.js'),
-    }
+    icon: './public/icon.png'
   })
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
